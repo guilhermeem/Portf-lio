@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-fundo: black;
+    --cor-branco: white;
+    --fonte-titulo: 'Poppins',sans-serif;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-branco);
+    font-family: var(--fonte-titulo);
+    text-align: center;
+
+}
+
+.cabecalho{
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 5em;
+    box-shadow: 2px 2px 1px #6610f2;
+    
+}
+
+.link{
+    justify-content: space-between;
+    margin: 1em 1em 0 3em;
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+.apresentacao__titulo{
+    font-size: 90px;
+    font-weight: 600;
+    padding: 3em 1em 0 ;
+}
+
+.apresentacao__subtitulo{
+    margin: 0;
+    background-image: linear-gradient(to left, rgb(44, 0, 88), rgb(105, 3, 173), rgb(218, 4, 247));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    font-size: 38px;
+}
+
+.apresentacao__link{
+    width: 30px;
+    background-color: #6610f2;
+    border-radius: 10px;
+    box-shadow: 4px 4px 1px #2c0050;
+    padding: 0.5em 1em;
+    margin: 0.7em;
+}
+
+.apresentacao__link:hover{
+    transform: scale(1.15);
+    transition: .2s;
+}
+
+.apresentacao__sobre__mim{
+    display: flex;
+    color: rgb(172, 178, 184);
+    margin: 8em 4em 5em;
+    padding: 30px;
+}
+
+.apresentacao__sobre__mim__titulox{
+    color: aliceblue;
+    font-size: 38px;
+    padding:  0;
+    align-items: center;
+}
+
+
+
+
+.apresentacao__sobre__mim__tx{
+    display: flex;
+    margin: 0.2em;
+    font-size: 24px;
+}
+
+.apresentacao__sobre__mim--tt{
+    padding: 0em 3em 5em;
+    color: rgb(172, 178, 184);
+}
+
+.apresentacao__sobre__mim__formacao--tt{
+    font-size: 38px;
+    color: aliceblue;
+}
+
+.apresentacao__sobre__mim__t{
+    color: #6610f2;
+    font-size: 19px;
+}
+
+.img__html{
+    margin: 0.9em 0 0 0;
+    width: 45px;
+}
+
+.img__css{
+    margin: 0.9em 0 0 0;
+    width: 55px;
+}
+
+.img__js{
+    width: 50px;
+}
+
+::-webkit-scrollbar{
+    width: 6px;
+    background-color: black;
+    border: 5px solid black;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #6610f2;
+    border-radius: 50px;
+    border: 2px solid #6610f2;
+}
